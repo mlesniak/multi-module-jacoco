@@ -2,7 +2,7 @@ package com.mlesniak.jacoco;
 
 public class Module1Main {
     public static void main(String[] args) {
-        if (args.length != 0) {
+        if (args.length == 0) {
             return;
         }
         int value = Integer.parseInt(args[0]);
